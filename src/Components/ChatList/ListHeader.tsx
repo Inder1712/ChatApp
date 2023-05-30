@@ -1,11 +1,10 @@
-import React from "react";
 import BorderColorOutlinedIcon from "@mui/icons-material/BorderColorOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 export default function ListHeader() {
   return (
     <div className="w-[100%] bg-red-200">
-      <div className="h-16 w-full bg-white flex ">
+      <div className="h-20 w-full bg-white flex ">
         <div className="flex w-[80%] items-center font-bold text-2xl pl-4 text-blue-500 h-full">
           Messages
         </div>
@@ -20,6 +19,7 @@ export default function ListHeader() {
           </button>
         </div>
       </div>
+      <div className="h-[1px] bg-gray-200 w-full"></div>
     </div>
   );
 }

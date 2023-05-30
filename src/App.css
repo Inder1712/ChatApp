@@ -1,0 +1,15 @@
+/* For webkit browsers */
+::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+  }
+  
+ 
+  
+  ::-webkit-scrollbar-thumb {
+    background: #e7e5e5; /* Color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9a9797; /* Color of the scrollbar thumb on hover */
+  }
+  
