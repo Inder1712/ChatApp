@@ -1,6 +1,6 @@
 import ListHeader from "./ListHeader";
 import PinnedList from "./PinnedList";
-import MsgBar from "./MsgBar";
+
 import AllMsg from "./AllMsg";
 
 export default function List() {

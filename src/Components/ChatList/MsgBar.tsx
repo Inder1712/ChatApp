@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-
 export default function MsgBar() {
-  const [username, setUsername] = useState("Alpha");
+  const username = "Alpha";
   return (
     <div className="w-full h-16  flex justify-center items-center">
       <div className="w-[100%] flex   h-full  pl-4 space-x-2 items-center ">
