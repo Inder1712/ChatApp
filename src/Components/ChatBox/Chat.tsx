@@ -4,7 +4,7 @@ import MsgBox from "./MsgBox";
 
 export default function Chat() {
   return (
-    <div className="h-screen w-[70%] hidden sm:flex sm:flex-col sm:w-[50%]  ">
+    <div className="h-fit w-[100%] hidden sm:flex sm:flex-col sm:w-[50%]  ">
       <Header />
       <MsgBox />
       <ChatFotter />

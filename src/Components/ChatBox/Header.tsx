@@ -42,7 +42,7 @@ export default function Header() {
             +5
           </div>
         </div>
-        <div className="h-12 w-[20%]  flex items-center text-gray-400 justify-center space-x-3">
+        <div className="h-12 w-[20%]  flex items-center text-gray-400 justify-end space-x-3">
           <button>
             <VideocamOutlinedIcon />
           </button>

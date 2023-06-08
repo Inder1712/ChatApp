@@ -8,7 +8,7 @@ export default function AllMsg() {
         <MessageRoundedIcon fontSize="small" />
         &nbsp; All Messages
       </div>
-      <div className=" h-[380px] overflow-scroll">
+      <div className=" h-[382px]  overflow-scroll">
         {pinned.map(() => (
           <MsgBar />
         ))}
